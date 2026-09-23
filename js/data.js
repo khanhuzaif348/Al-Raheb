@@ -91,7 +91,9 @@ const PRODUCTS = [
             "assets/images/product-1-5.webp",
             "assets/images/product-1-6.webp",
             "assets/images/product-1-7.webp",
-
+            "assets/images/product-1-8.webp",
+            "assets/images/product-1-9.webp",
+            "assets/images/product-1-10.webp",
             "assets/images/product-1-video-web.mp4"
         ],
 
@@ -121,12 +123,19 @@ const PRODUCTS = [
         name: "Emirati & Omani  Jubba – Light Blue",
 
         images: [
-            "assets/images/product-2-1.jpg",
-            "assets/images/product-2-2.jpg",
-            "assets/images/product-2-3.jpg",
-            "assets/images/product-2-4.jpg",
-            "assets/images/product-2-5.jpg",
-            "assets/images/product-2-video.mp4"
+            "assets/images/product-2-1.webp",
+            "assets/images/product-2-2.webp",
+            "assets/images/product-2-3.webp",
+            "assets/images/product-2-4.webp",
+            "assets/images/product-2-5.webp",
+            "assets/images/product-2-6.webp",
+            "assets/images/product-2-7.webp",
+            "assets/images/product-2-8.webp",
+            "assets/images/product-2-9.webp",
+            "assets/images/product-2-10.webp",
+            "assets/images/product-2-11.webp",
+            "assets/images/product-2-12.webp",
+            "assets/images/product-2-video-web.mp4"
         ],
 
         badge: "Custom Specs Available",
