@@ -168,7 +168,19 @@ const PRODUCTS = [
 
         name: "Luxury Designer Thobes & Festive Collections",
 
-        images: [],
+        images: ["assets/images/product-3-1.webp",
+                 "assets/images/product-3-2.webp",
+                 "assets/images/product-3-3.webp",
+                 "assets/images/product-3-4.webp",
+                 "assets/images/product-3-5.webp",
+                 "assets/images/product-3-6.webp",
+                 "assets/images/product-3-7.webp",
+                 "assets/images/product-3-8.webp",
+                 "assets/images/product-3-9.webp",
+                 "assets/images/product-3-10.webp",
+                 "assets/images/product-3-11.webp",
+                 "assets/images/product-3-video-web.mp4"
+        ],
 
         badge: "Direct Sourcing",
 
