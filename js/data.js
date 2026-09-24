@@ -166,7 +166,7 @@ const PRODUCTS = [
     {
         productNumber: 3,
 
-        name: "Luxury Designer Thobes & Festive Collections",
+        name: "Premium Classic Navy Thobes",
 
         images: ["assets/images/product-3-1.webp",
                  "assets/images/product-3-2.webp",
@@ -182,19 +182,19 @@ const PRODUCTS = [
                  "assets/images/product-3-video-web.mp4"
         ],
 
-        badge: "Direct Sourcing",
+        badge: "Premium Collection",
 
         description:
-            "High-end colored thobes crafted for seasonal demand, Eid celebrations, and special occasions. Breathable all-season fabrics with distinctive design details — perfect for importers and department stores.",
+            "Premium navy thobes featuring a refined stand collar, polished metallic buttons, clean front detailing, and a subtle chest-pocket accent. Designed with a sophisticated, versatile look for everyday wear, formal occasions, and premium retail collections.",
 
         material:
-            "All-Season Breathable Fabrics",
+            "Premium Breathable Fabric",
 
         useCase:
-            "Importers & Department Stores",
+            "Wholesalers, Retailers & Importers",
 
         moq:
-            "Container / Bulk Scale"
+            "Bulk / Wholesale Orders"
     },
 
 
