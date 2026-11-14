@@ -18,7 +18,7 @@
 
 const SITE_CONFIG = {
 
-    whatsappNumber: "919044039661",
+    whatsappNumber: "919920999968",
 
     /* Hero slider speed */
     heroSlideDuration: 2000,
@@ -210,7 +210,17 @@ const PRODUCTS = [
 
         name: "Luxury Designer Thobes & Festive Collections",
 
-        images: [],
+        images: ["assets/images/product-4-1.webp",
+                 "assets/images/product-4-2.webp",
+                 "assets/images/product-4-3.webp",
+                 "assets/images/product-4-4.webp",
+                 "assets/images/product-4-5.webp",
+                 "assets/images/product-4-6.webp",
+                 "assets/images/product-4-7.webp",
+                 "assets/images/product-4-8.webp",
+                 "assets/images/product-4-9.webp",
+                 "assets/images/product-4-video-web.mp4"
+        ],
 
         badge: "Direct Sourcing",
 
