@@ -1,5 +1,5 @@
 /* =========================================================
-   AL RAHEB — APPLICATION LOGIC
+   RAHEB — APPLICATION LOGIC
    ========================================================= */
 
 
@@ -59,7 +59,7 @@ function initializeWhatsAppLinks() {
 
             const message =
                 link.dataset.message ||
-                "Hi AL RAHEB, I'd like to discuss a B2B requirement.";
+                "Hi RAHEB, I'd like to discuss a B2B requirement.";
 
             link.href =
                 createWhatsAppUrl(message);
@@ -1033,7 +1033,7 @@ function renderProducts() {
 
                     <a
                         href="${createWhatsAppUrl(
-                            `Hi AL RAHEB, I'm interested in ${product.name}. Please share pricing and availability.`
+                            `Hi RAHEB, I'm interested in ${product.name}. Please share pricing and availability.`
                         )}"
                         target="_blank"
                         rel="noopener"
