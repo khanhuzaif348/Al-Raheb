@@ -1907,7 +1907,123 @@ body {
         right: 18px;
         bottom: 18px;
     }
+    /* RAHEB BRAND ALIGNMENT */
+    /* RAHEB BRAND */
+     /* RAHEB LOGO */
+     /* =================================
+   RAHEB HEADER LOGO - FINAL
+================================= */
 
+.logo {
+    display: inline-flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+    gap: 15px !important;
+    text-decoration: none !important;
+    flex-shrink: 0 !important;
+    max-width: none !important;
+}
+
+/* LOGO IMAGE CONTAINER */
+.logo-box {
+    width: 200px !important;
+    height: 130px !important;
+    min-width: 200px !important;
+    max-width: none !important;
+
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+
+    padding: 0 !important;
+    margin: 0 !important;
+
+    background: transparent !important;
+    border: none !important;
+    border-radius: 0 !important;
+    outline: none !important;
+    box-shadow: none !important;
+
+    overflow: visible !important;
+}
+
+/* ACTUAL LOGO IMAGE */
+.logo-box img.hero-brand-image {
+    display: block !important;
+
+    width: 200px !important;
+    height: 130px !important;
+
+    min-width: 200px !important;
+    max-width: none !important;
+    max-height: none !important;
+
+    object-fit: contain !important;
+    object-position: center !important;
+
+    padding: 0 !important;
+    margin: 0 !important;
+
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+/* RAHEB TEXT */
+.logo-text {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: flex-start !important;
+    flex-shrink: 0 !important;
+}
+
+.logo-title {
+    display: block !important;
+    font-size: 24px !important;
+    font-weight: 700 !important;
+    letter-spacing: 1.5px !important;
+    line-height: 1.2 !important;
+}
+
+.logo-subtitle {
+    display: block !important;
+    font-size: 10px !important;
+    letter-spacing: 2px !important;
+    margin-top: 5px !important;
+    line-height: 1.2 !important;
+}
+
+/* MOBILE RESPONSIVE */
+@media (max-width: 768px) {
+    .logo {
+        gap: 8px !important;
+    }
+
+    .logo-box {
+        width: 130px !important;
+        height: 90px !important;
+        min-width: 130px !important;
+    }
+
+    .logo-box img.hero-brand-image {
+        width: 130px !important;
+        height: 90px !important;
+        min-width: 130px !important;
+    }
+
+    .logo-title {
+        font-size: 19px !important;
+    }
+
+    .logo-subtitle {
+        font-size: 8px !important;
+        letter-spacing: 1px !important;
+    }
+}
+
+    
 }
 
 
