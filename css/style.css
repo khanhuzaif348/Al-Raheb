@@ -94,7 +94,7 @@ body {
         );
 
     display: flex;
-    align-items: center;
+    align-items: start;
     justify-content: center;
 
     box-shadow:
@@ -1910,16 +1910,13 @@ body {
     /* RAHEB BRAND ALIGNMENT */
     /* RAHEB BRAND */
      /* RAHEB LOGO */
-     /* =================================
-   RAHEB HEADER LOGO - FINAL
-================================= */
 
 .logo {
     display: inline-flex !important;
     flex-direction: row !important;
     align-items: center !important;
     justify-content: flex-start !important;
-    gap: 15px !important;
+    gap: 10px !important;
     text-decoration: none !important;
     flex-shrink: 0 !important;
     max-width: none !important;
@@ -2045,4 +2042,38 @@ body {
 
         scroll-behavior: auto !important;
     }
+
+}
+/* Container holding the logo and text side-by-side */
+.brand-logo-link {
+    display: flex;
+    align-items: center;
+    gap: 12px; /* Adjust spacing between the logo and text */
+    text-decoration: none;
+}
+
+/* Optional: control image size if it appears too large */
+.hero-brand-image {
+    height: 40px; /* Adjust as needed */
+    width: auto;
+    display: block;
+}
+
+/* Stacks the title and subtitle on top of each other */
+.logo-text {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.2;
+}
+
+.logo-title {
+    font-weight: bold;
+    font-size: 18px;
+    color: #333; /* Change to your brand color */
+}
+
+.logo-subtitle {
+    font-size: 10px;
+    letter-spacing: 1px;
+    color: #666;
 }
